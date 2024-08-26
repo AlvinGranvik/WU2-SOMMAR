@@ -1,12 +1,17 @@
-h1, h2 {
+h1, h2, p {
+    color: white;
     font-weight: bold;
-    color: black;
-}
-
-p {
-    color: yellow;
-}
-
-div {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    background-color: yellow;
+    max-width: fit-content;
+    margin: auto;
     
+}
+
+body {
+    background-image: url(pictures-n-shi/flying\ rainbow\ and\ whatnot.jpg);
+    background-size:cover;
+    background-position: center;
+    text-align:center;
 }
